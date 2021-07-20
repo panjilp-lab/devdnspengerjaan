@@ -1,0 +1,62 @@
+/* class untuk background image */
+.bg-img {
+    background-image: url('../foto/colorlib.jpg');
+    /* opacity: 0.1; */
+}
+
+.card-r-14 {
+    border-radius: 14px;
+}
+
+.btn-purple {
+    background-color: #8540f5;
+}
+
+.card-header {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(215, 22, 22, 0.03);
+    border-bottom: 1px solid rgba(102, 10, 10, 0.13);
+}
+
+section {
+    position: relative;
+    background: url('../foto/colorlib.jpg');
+    background-attachment: fixed;
+    /* height: 100vh; */
+}
+
+section .layout {
+    border-radius: 14px;
+    position: relative;
+    /* top: 35%; */
+    /* left: 30%; */
+    max-width: 600px;
+    padding: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    color: black;
+}
+
+section .layout::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('../foto/colorlib.jpg');
+    background-attachment: fixed;
+    filter: blur(8px);
+}
+
+section .layout h2 {
+    position: relative;
+}
+
+section .layout p {
+    position: relative;
+}
+
+section .layout button {
+    position: relative;
+}
